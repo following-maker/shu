@@ -1,0 +1,48 @@
+# ---------- 通用 ----------
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+*.tmp
+
+# ---------- IDE ----------
+.idea/
+*.iml
+.vscode/*
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.settings/
+.project
+.classpath
+
+# ---------- Java / Maven ----------
+target/
+!.mvn/wrapper/maven-wrapper.jar
+*.class
+*.jar
+*.war
+*.ear
+# 保留 Maven Wrapper（若以后添加）
+
+# ---------- Node / 前端 ----------
+node_modules/
+dist/
+dist-ssr/
+.pnpm-store/
+.vite/
+coverage/
+*.local
+.eslintcache
+
+# ---------- 构建产物 / 临时输出 ----------
+flowcharts_output/__pycache__/
+__pycache__/
+*.pyc
+
+# ---------- 敏感配置 ----------
+application-local.yml
+application-secret.yml
+.env
+.env.*
+!.env.example
